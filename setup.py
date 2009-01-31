@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2009 gocept gmbh & co. kg
+# Copyright (c) 2009 Michael Howitz
 # See also LICENSE.txt
 
 from setuptools import setup, find_packages
 import os.path
 
-version = '0.1dev'
+version = '0.1'
 
 setup(name='icemac.truncatetext',
       version=version,
