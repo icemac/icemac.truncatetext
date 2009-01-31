@@ -3,17 +3,23 @@
 # See also LICENSE.txt
 
 from setuptools import setup, find_packages
-import os
+import os.path
 
 version = '0.1dev'
 
 setup(name='icemac.truncatetext',
       version=version,
       description="Nice, intelligent truncation of text.",
-      long_description=open("README.txt").read() + "\n" +
-                       open("CHANGES.txt").read(),
+      long_description=(
+        open(os.path.join("icemac", "truncatetext", "README.txt")).read() +
+        "\n" +
+        open("CHANGES.txt").read()),
       classifiers=[
         "Programming Language :: Python",
+        "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 2.3",
+        "Programming Language :: Python :: 2.4",
+        "Programming Language :: Python :: 2.5",
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Zope Public License",
