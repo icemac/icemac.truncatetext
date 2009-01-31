@@ -1,0 +1,1 @@
+see icemac/truncatetext/README.txt
