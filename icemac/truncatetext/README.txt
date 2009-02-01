@@ -31,14 +31,14 @@ required length:
   >>> truncate('Lorem ipsum', 1)
   'Lorem ...'
 
-If the text contains only of one word which is longer the the wished
-lenght it is returned but without the ellipsis:
+If the text contains only of one word which is longer than the desired
+length it is returned without an ellipsis:
 
   >>> truncate('The-really-long-word', 5)
   'The-really-long-word'
 
-If the text is shorter than the ``length`` parameter it is returned
-without the ellipsis:
+If the text is shorter than the desired length it is returned without
+the ellipsis, too:
 
   >>> truncate('Lorem ipsum', 11)
   'Lorem ipsum'
