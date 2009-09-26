@@ -10,11 +10,11 @@ Changelog
 0.2 (2009-09-26)
 ----------------
 
-* Added ability pass a string used as ellipsis string.
+- Added ability pass a string used as ellipsis string.
 
 
-0.1 - 2009-01-31
+0.1 (2009-01-31)
 ----------------
 
-* Initial public release
+- Initial public release.
 
