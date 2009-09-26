@@ -3,7 +3,7 @@
 # See also LICENSE.txt
 # $Id$
 
-def truncate(text, length):
+def truncate(text, length, ellipsis='...'):
     if text is None:
         text = ''
     if not isinstance(text, basestring):
@@ -19,6 +19,6 @@ def truncate(text, length):
         pos = length + content[length:].find(' ')
         if pos != (len(content) - 1):
             # if the found whitespace is not the last one add an ellipsis
-            text = text[:pos].strip() + ' ...'
+            text = text[:pos].strip() + ' ' + ellipsis
 
     return text

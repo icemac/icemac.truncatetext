@@ -12,6 +12,9 @@ required length:
   >>> truncate('I was here.', 3)
   'I was ...'
 
+What can get truncated?
+-----------------------
+
 Only instances of basestring can be truncated:
 
   >>> truncate(3, 3)
@@ -24,6 +27,9 @@ Only instances of basestring can be truncated:
 
   >>> truncate(None, 4)
   ''
+
+What is returned?
+-----------------
 
 Always at least one word is returned even when it is longer than the
 required length:
@@ -43,6 +49,9 @@ the ellipsis, too:
   >>> truncate('Lorem ipsum', 11)
   'Lorem ipsum'
 
+Where gets the text truncated?
+------------------------------
+
 Truncation also takes place at tabs and linebreaks:
 
   >>> truncate("I was here.\nNow I'm away", 11)
@@ -51,3 +60,12 @@ Truncation also takes place at tabs and linebreaks:
   'I was here.\rNow ...'
   >>> truncate("I was here.\tNow I'm away", 11)
   'I was here. ...'
+
+I do not want `...` as ellipsis.
+--------------------------------
+
+``truncate`` takes an optional argument which defines the ellipsis string:
+
+  >>> truncate(u'Lorem ipsum', 5, ellipsis=u':::')
+  u'Lorem :::'
+

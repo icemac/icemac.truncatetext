@@ -1,1 +1,1 @@
-see icemac/truncatetext/README.txt
+Nice, intelligent truncation of text.
