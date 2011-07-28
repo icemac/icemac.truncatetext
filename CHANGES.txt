@@ -4,7 +4,7 @@ Changelog
 0.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Updated categories: Python 2.7 is supported, too.
 
 
 0.2 (2009-09-26)

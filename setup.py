@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2009-2010 Michael Howitz
+# Copyright (c) 2009-2011 Michael Howitz
 # See also LICENSE.txt
 
 from setuptools import setup, find_packages
@@ -26,6 +26,7 @@ setup(name='icemac.truncatetext',
         "Programming Language :: Python :: 2.4",
         "Programming Language :: Python :: 2.5",
         "Programming Language :: Python :: 2.6",
+        "Programming Language :: Python :: 2.7",
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Zope Public License",
