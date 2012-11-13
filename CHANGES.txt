@@ -6,6 +6,11 @@ Changelog
 
 - Moved sources to bitbucket.org.
 
+- Added Travis-CI.
+
+- Dropped official support for Python 2.3 and Python 2.4. (Although these
+  rather old Python versions still might be used with this release.)
+
 
 0.2.1 (2011-07-28)
 ------------------
