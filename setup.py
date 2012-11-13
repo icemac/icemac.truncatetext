@@ -5,7 +5,7 @@
 from setuptools import setup, find_packages
 import os.path
 
-version = '0.3'
+version = '0.4.dev0'
 
 def read(*path):
     return open(os.path.join(*path)).read() + "\n\n"
