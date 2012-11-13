@@ -4,7 +4,7 @@ Changelog
 0.2.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Moved sources to bitbucket.org.
 
 
 0.2.1 (2011-07-28)

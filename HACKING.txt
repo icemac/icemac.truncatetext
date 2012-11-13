@@ -1,0 +1,7 @@
+Hacking
+=======
+
+Fork me on `bitbucket.org`_ or put your issues to the `issue tracker`_.
+
+.. _`bitbucket.org` : https://bitbucket.org/icemac/icemac.truncatetext
+.. _`issue tracker` : https://bitbucket.org/icemac/icemac.truncatetext/issues

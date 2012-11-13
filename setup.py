@@ -18,7 +18,8 @@ setup(name='icemac.truncatetext',
         read("README.txt") +
         ".. contents::\n\n" +
         read("icemac", "truncatetext", "README.txt") +
-        read("CHANGES.txt")),
+        read("CHANGES.txt") +
+        read("HACKING.txt")),
       classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 2",
