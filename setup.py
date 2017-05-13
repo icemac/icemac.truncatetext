@@ -16,13 +16,13 @@ def read(*path):
 setup(
     name='icemac.truncatetext',
     version=version,
-    description=read("README.txt"),
+    description=read("README.rst"),
     long_description="\n\n".join([
-        read("README.txt") +
+        read("README.rst") +
         ".. contents::" +
-        read("icemac", "truncatetext", "README.txt") +
-        read("CHANGES.txt") +
-        read("HACKING.txt")]),
+        read("icemac", "truncatetext", "README.rst") +
+        read("CHANGES.rst") +
+        read("HACKING.rst")]),
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 2",
