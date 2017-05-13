@@ -4,6 +4,8 @@ Changelog
 0.4 (unreleased)
 ----------------
 
+- Add support for Python 3.4 up to 3.6, PyPy2 and PyPy3.
+
 - Drop support for Python 2.5 and 2.6.
 
 

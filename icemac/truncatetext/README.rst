@@ -15,13 +15,13 @@ required length:
 What can get truncated?
 -----------------------
 
-Only instances of basestring can be truncated:
+Only instances of ``basestring`` (``str`` on Python 3) can be truncated:
 
   >>> truncate(3, 3)
   Traceback (most recent call last):
   ValueError: 3 is no instance of basestring or None
-  >>> truncate(u'Lorem ipsum', 5)
-  u'Lorem ...'
+  >>> print(truncate(u'Lorem ipsum', 5))
+  Lorem ...
 
 ``None`` is handled nicely:
 
@@ -66,6 +66,6 @@ I do not want `...` as ellipsis.
 
 ``truncate`` takes an optional argument which defines the ellipsis string:
 
-  >>> truncate(u'Lorem ipsum', 5, ellipsis=u':::')
-  u'Lorem :::'
+  >>> print(truncate(u'Lorem ipsum', 5, ellipsis=u':::'))
+  Lorem :::
 

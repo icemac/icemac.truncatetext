@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 
+try:
+    basestring
+except NameError:  # Python 3
+    basestring = str
+
 
 def truncate(text, length, ellipsis='...'):
     """Truncate `text` to `length`, add `ellipsis` if needed."""
