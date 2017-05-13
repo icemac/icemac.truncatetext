@@ -18,11 +18,12 @@ setup(
     version=version,
     description=read("README.rst"),
     long_description="\n\n".join([
-        read("README.rst") +
-        ".. contents::" +
-        read("icemac", "truncatetext", "README.rst") +
-        read("CHANGES.rst") +
-        read("HACKING.rst")]),
+        read("README.rst"),
+        ".. contents::",
+        read("icemac", "truncatetext", "README.rst"),
+        read("CHANGES.rst"),
+        read("HACKING.rst"),
+    ]),
     classifiers=[
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.7",
