@@ -8,6 +8,8 @@ Changelog
 
 - Drop support for Python 2.5 and 2.6.
 
+- Change license from ZPL to MIT.
+
 
 0.3 (2012-11-13)
 ----------------
