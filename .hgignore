@@ -1,4 +1,9 @@
 syntax: glob
 
-*.pyc
 *.egg-info
+*.pyc
+.coverage
+.coverage.*
+.tox/
+coverage.xml
+htmlcov/

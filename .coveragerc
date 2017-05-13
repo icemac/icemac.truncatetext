@@ -1,0 +1,6 @@
+[run]
+branch = True
+source = icemac.truncatetext
+
+[report]
+precision = 2
