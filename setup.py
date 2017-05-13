@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2009-2012 Michael Howitz
+# Copyright (c) 2009-2017 Michael Howitz
 # See also LICENSE.txt
 
 from setuptools import setup, find_packages
@@ -7,20 +7,23 @@ import os.path
 
 version = '0.4.dev0'
 
+
 def read(*path):
-    return open(os.path.join(*path)).read() + "\n\n"
+    """Read a file from a path."""
+    return open(os.path.join(*path)).read()
 
 
-setup(name='icemac.truncatetext',
-      version=version,
-      description=read("README.txt"),
-      long_description=(
+setup(
+    name='icemac.truncatetext',
+    version=version,
+    description=read("README.txt"),
+    long_description="\n\n".join([
         read("README.txt") +
-        ".. contents::\n\n" +
+        ".. contents::" +
         read("icemac", "truncatetext", "README.txt") +
         read("CHANGES.txt") +
-        read("HACKING.txt")),
-      classifiers=[
+        read("HACKING.txt")]),
+    classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.5",
@@ -33,18 +36,18 @@ setup(name='icemac.truncatetext',
         "Operating System :: OS Independent",
         "Topic :: Utilities",
         "Topic :: Software Development :: Libraries :: Python Modules",
-        ],
-      keywords='text truncate string intelligent',
-      author='Michael Howitz',
-      author_email='icemac@gmx.net',
-      url='http://pypi.python.org/pypi/icemac.truncatetext',
-      license='ZPL',
-      packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['icemac'],
-      include_package_data=True,
-      zip_safe=True,
-      install_requires=[
+    ],
+    keywords='text truncate string intelligent',
+    author='Michael Howitz',
+    author_email='icemac@gmx.net',
+    url='https://bitbucket.org/icemac/icemac.truncatetext',
+    license='ZPL',
+    packages=find_packages(),
+    namespace_packages=['icemac'],
+    include_package_data=True,
+    zip_safe=True,
+    install_requires=[
         'setuptools',
-        ],
-      test_suite="icemac.truncatetext.tests.test_all",
-      )
+    ],
+    test_suite="icemac.truncatetext.tests.test_all",
+)

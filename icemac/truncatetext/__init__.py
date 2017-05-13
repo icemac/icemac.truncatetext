@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2009-2012 Michael Howitz
-# See also LICENSE.txt
-# $Id$
+
 
 def truncate(text, length, ellipsis='...'):
+    """Truncate `text` to `length`, add `ellipsis` if needed."""
     if text is None:
         text = ''
     if not isinstance(text, basestring):
