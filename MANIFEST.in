@@ -1,0 +1,8 @@
+include *.TXT
+include *.rst
+include *.yml
+include .coveragerc
+include tox.ini
+recursive-include icemac *.rst
+
+exclude MANIFEST.in
