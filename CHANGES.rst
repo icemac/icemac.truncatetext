@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.1 (unreleased)
-----------------
+1.0.post1 (2017-06-22)
+----------------------
 
 - Fix the `description` so PyPI accepts it.
 
