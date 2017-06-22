@@ -4,7 +4,7 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Fix the `description` so PyPI accepts it.
 
 
 1.0 (2017-05-13)

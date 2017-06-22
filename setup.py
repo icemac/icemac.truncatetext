@@ -16,7 +16,7 @@ def read(*path):
 setup(
     name='icemac.truncatetext',
     version=version,
-    description=read("README.rst"),
+    description='Nice, intelligent truncation of text.',
     long_description="\n\n".join([
         read("README.rst"),
         ".. contents::",
