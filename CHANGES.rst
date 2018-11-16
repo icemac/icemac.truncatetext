@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.2 (unreleased)
-----------------
+1.1.1 (2018-11-16)
+------------------
 
 - Move repository to Github.
 
