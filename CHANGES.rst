@@ -4,7 +4,7 @@ Changelog
 1.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Move repository to Github.
 
 
 1.1 (2018-11-15)

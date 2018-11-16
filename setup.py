@@ -46,7 +46,7 @@ setup(
     keywords='text truncate string intelligent',
     author='Michael Howitz',
     author_email='icemac@gmx.net',
-    url='https://bitbucket.org/icemac/icemac.truncatetext',
+    url='https://github.com/icemac/icemac.truncatetext',
     license='MIT',
     packages=find_packages(),
     namespace_packages=['icemac'],
